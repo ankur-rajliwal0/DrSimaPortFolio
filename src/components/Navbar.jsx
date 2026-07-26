@@ -22,7 +22,7 @@ function Navbar() {
               {/* Logo */}
               <a href="/" className="flex flex-col">
                 <h1 className="text-2xl font-bold text-[#0F4C81] tracking-wide">
-                  Dr. Seema
+                  Dr. Seema Chhangani
                 </h1>
 
                 <span className="text-xs text-gray-500">
