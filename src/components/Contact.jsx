@@ -10,38 +10,39 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="py-24 bg-gradient-to-b from-blue-50 to-white"
+      className="py-16 md:py-20 lg:py-24 bg-gradient-to-b from-blue-50 to-white"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
         {/* Heading */}
-        <div className="text-center mb-16">
-          <span className="text-blue-700 font-semibold uppercase tracking-widest">
+        <div className="text-center mb-12 lg:mb-16">
+          <span className="text-blue-700 font-semibold uppercase tracking-[3px] md:tracking-widest text-sm">
             Contact
           </span>
 
-          <h2 className="text-4xl font-bold text-gray-900 mt-3">
+          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
             Book Your Consultation
           </h2>
 
-          <p className="text-gray-600 mt-5 max-w-2xl mx-auto">
+          <p className="text-gray-600 mt-5 max-w-2xl mx-auto leading-7 text-base sm:text-lg">
             Get in touch for appointments and professional respiratory care.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Left */}
-          <div className="bg-white rounded-3xl p-10 shadow-lg border border-gray-100">
-            <h3 className="text-3xl font-bold text-gray-900">
+          <div className="bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-lg border border-gray-100">
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900">
               Dr. Seema Chhangani
             </h3>
 
-            <p className="text-blue-700 font-medium mt-2">
+            <p className="text-blue-700 font-medium mt-2 text-sm sm:text-base">
               Consultant Pulmonology & Critical Care Medicine
             </p>
 
-            <div className="mt-10 space-y-7">
-              <div className="flex items-start gap-5">
-                <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700">
+            <div className="mt-8 space-y-7">
+              {/* Phone */}
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 flex-shrink-0 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700">
                   <FaPhoneAlt />
                 </div>
 
@@ -49,15 +50,16 @@ function Contact() {
                   <h4 className="font-semibold text-lg">Phone</h4>
                   <a
                     href="tel:+917023123152"
-                    className="text-gray-600 hover:text-blue-700"
+                    className="text-gray-600 hover:text-blue-700 break-all"
                   >
                     +91 70231 23152
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-5">
-                <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700">
+              {/* Email */}
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 flex-shrink-0 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700">
                   <FaEnvelope />
                 </div>
 
@@ -65,28 +67,19 @@ function Contact() {
                   <h4 className="font-semibold text-lg">Email</h4>
                   <a
                     href="mailto:seemachhangani13@gmail.com"
-                    className="text-gray-600 hover:text-blue-700"
+                    className="text-gray-600 hover:text-blue-700 break-all"
                   >
                     seemachhangani13@gmail.com
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-5">
-                <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700">
-                  <FaGlobe />
-                </div>
+              {/* Website */}
+              
 
-                <div>
-                  <h4 className="font-semibold text-lg">Website</h4>
-                  <p className="text-gray-600">
-                    www.drseemachhangani.com
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-5">
-                <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700">
+              {/* Address */}
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 flex-shrink-0 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700">
                   <FaMapMarkerAlt />
                 </div>
 
@@ -94,12 +87,9 @@ function Contact() {
                   <h4 className="font-semibold text-lg">Clinic Address</h4>
 
                   <p className="text-gray-600 leading-7">
-                    Amar Jain Hospital
-                    <br />
-                    374-C, Amrapali Circle
-                    <br />
-                    Vaishali Nagar
-                    <br />
+                    Amar Jain Hospital <br />
+                    374-C, Amrapali Circle <br />
+                    Vaishali Nagar <br />
                     Jaipur, Rajasthan
                   </p>
                 </div>
@@ -108,34 +98,34 @@ function Contact() {
           </div>
 
           {/* Right Form */}
-          <div className="bg-white rounded-3xl p-10 shadow-lg border border-gray-100">
-            <h3 className="text-3xl font-bold text-gray-900 mb-8">
+          <div className="bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-lg border border-gray-100">
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">
               Appointment Request
             </h3>
 
-            <form className="space-y-6">
+            <form className="space-y-5">
               <input
                 type="text"
                 placeholder="Full Name"
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-blue-700"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition"
               />
 
               <input
                 type="tel"
                 placeholder="Phone Number"
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-blue-700"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition"
               />
 
               <input
                 type="email"
                 placeholder="Email Address"
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:border-blue-700"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition"
               />
 
               <textarea
                 rows="5"
                 placeholder="Describe your concern..."
-                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none resize-none focus:border-blue-700"
+                className="w-full border border-gray-300 rounded-xl px-5 py-4 outline-none resize-none focus:ring-2 focus:ring-blue-600 focus:border-blue-600 transition"
               ></textarea>
 
               <button

@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 w-full z-50">
+      <header className="fixed top-0 left-0 w-full z-150">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5">
           <div className="backdrop-blur-xl bg-white/70 border border-white/40 rounded-2xl shadow-[0_8px_40px_rgba(15,76,129,0.15)]">
             <div className="flex items-center justify-between h-20 px-8">
