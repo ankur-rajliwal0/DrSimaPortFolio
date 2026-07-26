@@ -10,7 +10,6 @@ function Navbar() {
     "About",
     "Services",
     "Expertise",
-    "Qualifications",
     "Contact",
   ];
 
