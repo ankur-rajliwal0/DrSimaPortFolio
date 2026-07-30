@@ -88,7 +88,7 @@ function Navbar() {
                   <img
                     src={logo}
                     alt="Dr. Seema Chhangani Logo"
-                    className="h-full w-full object-contain"
+                    className="h-full w-full rounded-full object-cover"
                   />
                 </div>
 

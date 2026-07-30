@@ -88,10 +88,7 @@ function Footer() {
                 <span>seemachhangani13@gmail.com</span>
               </div>
 
-              <div className="flex gap-3">
-                <FaGlobe className="mt-1 text-blue-300" />
-                <span>www.drseemachhangani.com</span>
-              </div>
+              
             </div>
           </div>
 
@@ -104,13 +101,8 @@ function Footer() {
             <div className="flex gap-3 text-gray-300 leading-7">
               <FaMapMarkerAlt className="mt-1 text-blue-300" />
               <p>
-                Amar Jain Hospital
-                <br />
-                374-C, Amrapali Circle
-                <br />
-                Vaishali Nagar
-                <br />
-                Jaipur, Rajasthan
+               Sharda clinic, near Yash meridian hotel, Bharat Mata circle, Narayan Vihar 
+Mangyawas, Mansarovar extension Jaipur 302029
               </p>
             </div>
           </div>
