@@ -17,10 +17,10 @@ function Homepage() {
       <Hero/>
       <AboutDocter/>
       <Services/>
+      <Expertise/>
       <WhyChoose/>
       {/* <Qualifications/> */}
       <ConsultationProcess/>
-      <Expertise/>
       <Contact/>
       <Footer/>
     </div>
